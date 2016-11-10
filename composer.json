@@ -1,0 +1,25 @@
+{
+    "name": "cemerson/translator-twig-extension",
+    "description": "Twig extension to provide the same functionality as Twig's own i18n extension but with the ability to pass in a TranslatorInterface from the gettext/gettext package instead of using the built-in gettext functionality",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Emerson",
+            "email": "chris@cemerson.co.uk"
+        }
+    ],
+    "require": {
+        "php": "^5.5 || ^7.0",
+        "twig/extensions": "^1.4",
+        "gettext/gettext": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "CEmerson\\TranslatorTwigExtension\\": "src"
+        }
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "bin-dir": "bin"
+    }
+}
